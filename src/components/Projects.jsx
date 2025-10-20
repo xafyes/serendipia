@@ -1,27 +1,29 @@
 // src/components/Projects.jsx
 // Nota: Este componente encapsula la sección de casos de éxito para mantener el Home.jsx limpio.
+import JavieraMiranda from "../assets/JavieraMiranda.jpg";
+import VanesaRios from "../assets/VanesaRios.jpg";
 const PROJECT_CASES = [
   {
-    title: "Aurora Cosmetics",
+    title: "Agencia Adaptate",
     description:
-      "Rediseñamos la narrativa digital de la marca con una experiencia inmersiva centrada en el autocuidado consciente.",
+      "El servicio que ofrece Serendipia ha sido de gran ayuda en mi negocio. Mis redes se ven ordenadas, bonitas y llamativas.",
     testimonial:
-      "Serendipia entendió el ADN de nuestra marca y lo tradujo en una campaña que duplicó el engagement en solo dos meses.",
-    author: "Laura Méndez",
-    role: "Directora de Marketing",
+      "Utilizan los colores de mi marca, escuchan y entienden mis ideas, haciendo de nuestro trato algo fluido e invaluable.",
+    author: "Vanesa Ríos",
+    role: "Founder",
     image:
-      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80",
+      VanesaRios,
   },
   {
-    title: "Canvas Cowork",
+    title: "THEIRA",
     description:
-      "Desarrollamos un ecosistema digital que conecta a profesionales creativos con espacios colaborativos en tiempo real.",
+      "Desarrollamos un ecosistema digital que conecta a profesionales de forma simple en el trabajo remoto",
     testimonial:
-      "Pasamos de tener espacios vacíos a listas de espera semanales. La estrategia de contenidos fue un antes y un después.",
-    author: "Tomás Aguilar",
-    role: "Co-Founder",
+      "Pasamos de no tener ninguna estrategia digital a tener una comunidad activa y comprometida que crece día a día.",
+    author: "Javiera Miranda",
+    role: "Founder",
     image:
-      "https://images.unsplash.com/photo-1542744173-05336fcc7ad4?auto=format&fit=crop&w=800&q=80",
+      JavieraMiranda,
   },
   {
     title: "Pulse Fitness",

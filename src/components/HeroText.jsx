@@ -18,13 +18,9 @@ export default function HeroText() {
       </h1>
 
       <p className="mt-6 text-lg max-w-xl text-white/90">
-        Descubre cómo potenciar tu marca y conectar con tus clientes de manera única. En Serendipia, combinamos creatividad y estrategia para llevar tu negocio al siguiente nivel.
+       En nuestra agencia Serendipia convertimos esa esencia en experiencias auténticas que generan confianza, cercanía y una conexión emocional capaz de diferenciarte en cada paso.
       </p>
 
-      <div className="mt-8 flex gap-4">
-        <button className="btn-accent">Sobre nosotros</button>
-        <button className="btn-peach">Más información</button>
-      </div>
     </section>
   );
 }

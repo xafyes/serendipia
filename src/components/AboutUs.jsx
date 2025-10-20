@@ -33,7 +33,7 @@ export default function AboutUs() {
   );
 
   return (
-    <section className="relative w-full min-h-screen py-20 px-6 bg-gradient-to-b from-white to-[var(--color-lavender)]/10 overflow-hidden">
+    <section className="relative w-full py-20 px-6 bg-gradient-to-b from-white to-[var(--color-lavender)]/10 overflow-hidden">
       {/* === Luces decorativas === */}
       <div className="absolute inset-0 pointer-events-none">
         {dots.map((dot, idx) => (
@@ -50,10 +50,11 @@ export default function AboutUs() {
           />
         ))}
       </div>
-
+      <style>
+      </style>
       {/* Título */}
       <div className="max-w-6xl mx-auto text-center mb-12 relative z-10">
-        <h2 className="text-4xl font-bold text-[var(--color-burgundy)] mb-4">
+        <h2 className="text-4xl font-bold text-[var(--color-ink)] mb-4">
           Sobre <span className="text-[var(--color-brand)]">Serendipia</span>
         </h2>
         <p className="text-lg text-[var(--color-ink)]/80 max-w-2xl mx-auto">
@@ -73,7 +74,7 @@ export default function AboutUs() {
               flex flex-col items-center text-center
             "
           >
-            <h3 className="text-xl font-semibold text-[var(--color-burgundy)] mb-3">
+            <h3 className="text-xl font-semibold text-[var(--color-brand)] mb-3">
               {item.title}
             </h3>
             <p className="text-[var(--color-ink)]/80 text-sm">{item.text}</p>

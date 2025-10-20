@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -11,7 +12,7 @@ export default function Footer() {
       <div className="relative max-w-6xl mx-auto px-6 py-16 grid gap-12 lg:grid-cols-[1.2fr_1fr_1fr]">
         <div className="space-y-6">
           <p className="uppercase tracking-[0.35em] text-xs text-[var(--color-brand)]/80">
-            Serendipia Studio
+            Serendipia MKT
           </p>
           <h3 className="text-3xl font-semibold leading-snug">
             Creamos experiencias memorables que combinan estrategia y emoción.
@@ -20,12 +21,17 @@ export default function Footer() {
             ¿Listo para darle vida a tu próxima idea? Conversemos y encontremos juntos
             la mejor ruta para tu marca.
           </p>
-          <Link
-            to="/contact"
-            className="btn-accent inline-flex w-fit rounded-full px-6 py-3 text-sm tracking-wide shadow-lg shadow-[var(--color-brand)]/30 transition hover:shadow-[var(--color-brand)]/60"
-          >
-            Agenda una consulta
-          </Link>
+           {/* Enlace externo con icono */}
+            <a
+              href="https://www.instagram.com/tuserendipia.mkt/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 rounded-full px-6 py-3 text-sm font-semibold bg-[var(--color-brand)] hover:bg-[var(--color-lavender)] shadow-lg transition"
+              aria-label="Ir a Instagram de Serendipia"
+            >
+              <FaInstagram className="w-4 h-4" />
+              <span>Instagram</span>
+            </a>
         </div>
 
         <div className="space-y-4">
@@ -34,8 +40,8 @@ export default function Footer() {
           </h4>
           <ul className="space-y-3 text-sm text-white/70">
             <li className="font-medium text-white">hola@serendipia.com</li>
-            <li>+34 600 000 000</li>
-            <li>Madrid, España</li>
+            <li>+569 99999999</li>
+            <li>Santiago, Chile</li>
           </ul>
         </div>
 
@@ -48,27 +54,22 @@ export default function Footer() {
               Inicio
             </Link>
             <a className="transition hover:text-white" href="#projects">
-              Proyectos
+              Testimonios
             </a>
             <a className="transition hover:text-white" href="#contacto">
               Contacto
             </a>
-            <Link className="transition hover:text-white" to="/contact">
-              Escríbenos
-            </Link>
           </nav>
         </div>
-      </div>
+        </div>
+
 
       <div className="relative border-t border-white/10">
         <div className="max-w-6xl mx-auto px-6 py-6 text-xs uppercase tracking-[0.3em] text-white/50 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <p>© {new Date().getFullYear()} Serendipia. Todos los derechos reservados.</p>
           <div className="flex gap-6">
             <a className="transition hover:text-white" href="#privacidad">
-              Política de privacidad
-            </a>
-            <a className="transition hover:text-white" href="#terminos">
-              Términos
+              Desarrollado por J2
             </a>
           </div>
         </div>

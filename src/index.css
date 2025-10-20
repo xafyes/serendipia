@@ -5,6 +5,10 @@
 :root{
   --color-brand:#db83dd;
   --color-ink:#0c112e;
+  --color-peach:#ffebe0;
+  --color-burgundy:#800020;
+  --color-text-muted:#555770;
+  --bg-transparent:#ffffffcc;
 }
 
 html, body, #root { height: 100%; }
@@ -19,3 +23,5 @@ body{
   padding:.6rem 1.1rem; border-radius:9999px; font-weight:700; color:#fff;
   background: var(--color-brand);
 }
+
+html { scroll-behavior: smooth; }
