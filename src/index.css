@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+/* paleta mínima para prueba */
+:root{
+  --color-brand:#db83dd;
+  --color-ink:#0c112e;
+}
+
+html, body, #root { height: 100%; }
+body{
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: #fff; color: var(--color-ink);
+}
+
+/* utilidades tuyas (opcionales) */
+.btn-accent{
+  display:inline-flex; align-items:center; justify-content:center;
+  padding:.6rem 1.1rem; border-radius:9999px; font-weight:700; color:#fff;
+  background: var(--color-brand);
+}
