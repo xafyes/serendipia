@@ -1,6 +1,7 @@
 import HeroText from '../components/HeroText';
 import About from '../components/AboutUs';
-
+import Projects from '../components/Projects';
+import ContactSection from '../components/ContactSection';
 
 const Home = () => {
   return (
@@ -8,6 +9,8 @@ const Home = () => {
       <div className="relative z-10">
         <HeroText />
         <About />
+        <Projects />
+        <ContactSection />
       </div>
     </div>
 
