@@ -41,7 +41,10 @@ export default function ContactSection() {
   };
 
   return (
-    <section className="relative w-full py-20 bg-gradient-to-b from-white via-white to-[var(--color-brand)]/10">
+    <section
+      id="contacto"
+      className="relative w-full py-20 bg-gradient-to-b from-white via-white to-[var(--color-brand)]/10"
+    >
       <div className="max-w-5xl mx-auto px-6">
         {/* Encabezado descriptivo */}
         <div className="text-center mb-14">
