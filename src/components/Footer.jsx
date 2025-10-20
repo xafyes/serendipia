@@ -1,0 +1,78 @@
+import { Link } from "react-router-dom";
+
+export default function Footer() {
+  return (
+    <footer className="relative bg-[var(--color-ink)] text-white overflow-hidden">
+      <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute -top-24 right-10 h-64 w-64 rounded-full bg-[var(--color-brand)]/25 blur-3xl" />
+        <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-[var(--color-brand)]/15 blur-3xl" />
+      </div>
+
+      <div className="relative max-w-6xl mx-auto px-6 py-16 grid gap-12 lg:grid-cols-[1.2fr_1fr_1fr]">
+        <div className="space-y-6">
+          <p className="uppercase tracking-[0.35em] text-xs text-[var(--color-brand)]/80">
+            Serendipia Studio
+          </p>
+          <h3 className="text-3xl font-semibold leading-snug">
+            Creamos experiencias memorables que combinan estrategia y emoción.
+          </h3>
+          <p className="text-white/70 max-w-md">
+            ¿Listo para darle vida a tu próxima idea? Conversemos y encontremos juntos
+            la mejor ruta para tu marca.
+          </p>
+          <Link
+            to="/contact"
+            className="btn-accent inline-flex w-fit rounded-full px-6 py-3 text-sm tracking-wide shadow-lg shadow-[var(--color-brand)]/30 transition hover:shadow-[var(--color-brand)]/60"
+          >
+            Agenda una consulta
+          </Link>
+        </div>
+
+        <div className="space-y-4">
+          <h4 className="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--color-brand)]">
+            Contacto
+          </h4>
+          <ul className="space-y-3 text-sm text-white/70">
+            <li className="font-medium text-white">hola@serendipia.com</li>
+            <li>+34 600 000 000</li>
+            <li>Madrid, España</li>
+          </ul>
+        </div>
+
+        <div className="space-y-4">
+          <h4 className="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--color-brand)]">
+            Navega
+          </h4>
+          <nav className="flex flex-col space-y-3 text-sm text-white/70">
+            <Link className="transition hover:text-white" to="/">
+              Inicio
+            </Link>
+            <a className="transition hover:text-white" href="#projects">
+              Proyectos
+            </a>
+            <a className="transition hover:text-white" href="#contacto">
+              Contacto
+            </a>
+            <Link className="transition hover:text-white" to="/contact">
+              Escríbenos
+            </Link>
+          </nav>
+        </div>
+      </div>
+
+      <div className="relative border-t border-white/10">
+        <div className="max-w-6xl mx-auto px-6 py-6 text-xs uppercase tracking-[0.3em] text-white/50 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+          <p>© {new Date().getFullYear()} Serendipia. Todos los derechos reservados.</p>
+          <div className="flex gap-6">
+            <a className="transition hover:text-white" href="#privacidad">
+              Política de privacidad
+            </a>
+            <a className="transition hover:text-white" href="#terminos">
+              Términos
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
