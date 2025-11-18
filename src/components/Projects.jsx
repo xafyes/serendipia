@@ -32,7 +32,7 @@ const PROJECT_CASES = [
       "Quiero destacar en el rubro de la mecánica automotriz, mostrando mi trabajo de una manera más casual y cercana, para que más personas se interesen en este mundo en su día a día.",
     testimonial:
       "Quisiera destacar que en su oportunidad, el video que solicité a Serendipia quedó realmente magnífico. Se nota el trabajo de investigación y dedicación detrás de su realización. Muy agradecido.",
-    author: "",
+    author: "Cristian Yañez",
     role: "CEO",
     image:
       Test,
