@@ -1,5 +1,6 @@
 // src/components/HeroText.jsx
 import heroBg from "../assets/hero-background.svg";
+import serendipiaLogo from "../assets/serendipia-logo.png";
 
 export default function HeroText() {
   return (
@@ -12,6 +13,11 @@ export default function HeroText() {
       />
       {/* Capa de color base opcional para mezclar con el SVG */}
       <div className="absolute inset-0 -z-10 bg-[#541A39]/80" />
+      <img
+        src={serendipiaLogo}
+        alt="Logo de Serendipia"
+        className="w-32 h-32 mb-6 mt-5"
+        />
 
       <h1 className="text-5xl font-bold max-w-2xl drop-shadow-lg">
         Bienvenidos a <span className="text-[var(--color-brand)]">Serendipia</span>

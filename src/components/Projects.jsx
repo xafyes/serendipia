@@ -2,6 +2,7 @@
 // Nota: Este componente encapsula la sección de casos de éxito para mantener el Home.jsx limpio.
 import JavieraMiranda from "../assets/JavieraMiranda.jpg";
 import VanesaRios from "../assets/VanesaRios.jpg";
+import Test from "../assets/test-1.jpeg"
 const PROJECT_CASES = [
   {
     title: "Agencia Adaptate",
@@ -26,15 +27,15 @@ const PROJECT_CASES = [
       JavieraMiranda,
   },
   {
-    title: "Pulse Fitness",
+    title: "MECTEC",
     description:
-      "Creamos una comunidad activa a través de retos interactivos y contenido social que celebraba cada logro de sus miembros.",
+      "Quiero destacar en el rubro de la mecánica automotriz, mostrando mi trabajo de una manera más casual y cercana, para que más personas se interesen en este mundo en su día a día.",
     testimonial:
-      "La comunidad creció un 180% y cada interacción se siente humana, auténtica y emocionante.",
-    author: "Valentina Rojas",
+      "Quisiera destacar que en su oportunidad, el video que solicité a Serendipia quedó realmente magnífico. Se nota el trabajo de investigación y dedicación detrás de su realización. Muy agradecido.",
+    author: "",
     role: "CEO",
     image:
-      "https://images.unsplash.com/photo-1546483875-ad9014c88eba?auto=format&fit=crop&w=800&q=80",
+      Test,
   },
 ];
 

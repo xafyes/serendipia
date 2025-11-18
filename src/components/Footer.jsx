@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -32,6 +32,16 @@ export default function Footer() {
               <FaInstagram className="w-4 h-4" />
               <span>Instagram</span>
             </a>
+            <a
+              href="https://www.facebook.com/tuserendipia.mkt"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 ml-2 rounded-full px-6 py-3 text-sm font-semibold bg-[var(--color-blue-brand)] hover:bg-[var(--color-lavender)] shadow-lg transition"
+              aria-label="Ir a Facebook de Serendipia"
+            >
+              <FaFacebook className="w-4 h-4" />
+              <span>Facebook</span>
+            </a>
         </div>
 
         <div className="space-y-4">
@@ -39,7 +49,7 @@ export default function Footer() {
             Contacto
           </h4>
           <ul className="space-y-3 text-sm text-white/70">
-            <li className="font-medium text-white">hola@serendipia.com</li>
+            <li className="font-medium text-white">tuserendipia.mkt@gmail.com</li>
             <li>+569 99999999</li>
             <li>Santiago, Chile</li>
           </ul>
@@ -50,9 +60,9 @@ export default function Footer() {
             Navega
           </h4>
           <nav className="flex flex-col space-y-3 text-sm text-white/70">
-            <Link className="transition hover:text-white" to="/">
+            <a className="transition hover:text-white" href="#home">
               Inicio
-            </Link>
+            </a>
             <a className="transition hover:text-white" href="#projects">
               Testimonios
             </a>

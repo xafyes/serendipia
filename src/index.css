@@ -9,6 +9,8 @@
   --color-burgundy:#800020;
   --color-text-muted:#555770;
   --bg-transparent:#ffffffcc;
+  --color-blue-brand: #3b82f6;
+  
 }
 
 html, body, #root { height: 100%; }
