@@ -24,7 +24,7 @@ export default function HeroText() {
       </h1>
 
       <p className="mt-6 text-lg max-w-xl text-white/90">
-       En nuestra agencia Serendipia convertimos esa esencia en experiencias auténticas que generan confianza, cercanía y una conexión emocional capaz de diferenciarte en cada paso.
+       Somos una agencia digital que acompaña a emprendedores y marcas creativas en la búsqueda de sus objetivos de presencia online y posicionamiento, trabajando como un socio cercano y estratégico.
       </p>
 
     </section>

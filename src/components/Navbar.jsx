@@ -118,6 +118,7 @@ export default function Navbar() {
             rounded-full p-2
             bg-white/90 backdrop-blur-sm
             shadow-xl ring-1 ring-black/5
+            border border-[var(--color-brand-darker)]/50 
           "
           aria-label="Navegación secundaria"
         >

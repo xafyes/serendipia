@@ -50,7 +50,7 @@ export default function Footer() {
           </h4>
           <ul className="space-y-3 text-sm text-white/70">
             <li className="font-medium text-white">tuserendipia.mkt@gmail.com</li>
-            <li>+569 99999999</li>
+            <li>+569 83412031</li>
             <li>Santiago, Chile</li>
           </ul>
         </div>
